@@ -27,11 +27,11 @@ _______________________________________________________________________________
 * Create a new Database
 * Clone or download this repo
 * in /src/java/com/model/GasStationServlet.java  : 
-* change lines 28, 31, 32 according to your database setup
+ change lines 28, 31, 32 according to your database setup
 * in GasStationFinder/web/index.jsp : 
-* change lines 12, 13 according to your database setup
+ change lines 12, 13 according to your database setup
 * in GasStationFinder/web/response.jsp : 
-* change lines 15, 16 according to your database setup
+ change lines 15, 16 according to your database setup
 
 
 
