@@ -1,30 +1,37 @@
 # GasStationFinder
 
-##Simple Mysql Web App
+##Simple Database Web App for finding gas stations near you.
 
-####Working on localhost
-* Create DB on phpMyAdmin on localhost
-* Connect Netbeans with the DB
-* ...Write the project...
-* Edit web pages project folder web page>META_INF>context.xlm
-* Create Deployment Descriptor
-* Add jdbc driver jar int0 $catalina_base/lib
-* Add jstl library into project
-* Add jstl tagline
-* Add jsp queries
-       
+
+Gas Station Finder is a web application that was created as a team project for 
+the 2015 CE426 Web Technologies course. The purpose of the application is to 
+demonstrate a simple example of a web application with database connectivity. 
+
+In the implementation of the project both JSTL and Java Servlet were used to connect
+to the Mysql Database. Additionally basic knowledge of the google maps API was necessary
+for the demonstration of the points of interest on a map.
+
+####Contributors:
+* Vartholomeos Argirios
+* Maria Kosmidou
+* Thomai Lyka
+* Dimitris Mallios
+* Olga Ksydia
+* Apostolis Tamvakis
+* Grigoris Tsitsirikis
+
+The application is deployed at: http://83.212.117.155:8080/GasStationFinder/       
 _______________________________________________________________________________
         
-####Working on remote server
-* Throw .war into webapps
-* Download and add jdbc driver jar int0 $catalina_base/lib
-* Change context.xml  (mysql login info and DB url)
-* Add the jstl tagline  sql:dataSource and the DB info into
-the .jsp file in order to connect to the DB
+####Deployment Information
+* Create a new Database
+* Clone or download this repo
+* in /src/java/com/model/GasStationServlet.java  :
+change lines 28, 31, 32 according to your database setup
+* in GasStationFinder/web/index.jsp
+change lines 12, 13 according to your database setup
+* in GasStationFinder/web/response.jsp
+change lines 15, 16 according to your database setup
 
 
 
-Useful links:
-http://www.tutorialspoint.com/jsp/jsp_database_access.htm
-http://www.tutorialspoint.com/jsp/jstl_sql_query_tag.htm
-http://www.9lessons.info/2008/09/jsp-login-page-to-connect-mysql-atabase.html
